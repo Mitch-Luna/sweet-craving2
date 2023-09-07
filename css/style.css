@@ -1,0 +1,322 @@
+* {
+    
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.containerHeader {
+    background-color: #a22844;
+    color: #fff;
+    padding: 1px;
+    text-align: center;
+    margin-top: 5rem;
+    min-width: 30.2rem;
+}
+
+.containerImg {
+    position: absolute;
+    margin-top: -3.7rem;
+    margin-left: 1rem;
+}
+
+.logo {
+    width: 14rem;
+    height: 12rem;
+}
+
+.containerListHeader {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 12rem;
+}
+
+.menuPrincipal {
+    width: 25rem;
+    height: 2rem;
+    font-size: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.menuPrincipal:hover {
+    color: #badddc;
+}
+
+/*------------------------------------------ Main --------------------------------------------------*/
+main {
+    background-color: rgb(224, 221, 216);
+    width: 98.9vw;
+    height: 65rem;
+    min-width: 30.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+
+.left-section{
+    margin-right: 10px;
+    margin-left: 10px;
+    background-image: url('../image/fondo.jpg');
+    background-size: 90% 100%;
+    width: 50%;
+    height: 60rem
+}
+
+.right-section{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 15px;
+    background-color: white;
+    width: 50%;
+    height: 60rem;
+}
+
+.menu-title {
+    margin-top: 32px;
+    min-width: 10.5rem;
+    max-width: 35rem;
+    display: flex;
+    background-color: rgb(212, 60, 111);
+    width: 40%;
+    height: 8%;
+    border-radius: 20px;
+}
+
+.menu-title2 {
+    background-color: blueviolet;
+    min-width: 10.5rem;
+    max-width: 35rem;
+    display: flex;
+    background-color: rgb(212, 60, 111);
+    width: 40%;
+    height: 8%;
+    border-radius: 20px;
+}
+
+.title {
+    color: white;
+    font-size: 2rem;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+figure {
+    margin-left: 12px;
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    height: 15%;
+}
+
+.cake {
+    width: 100%;
+    height: 100%;
+}
+
+div {
+    width: 40px;
+    height: 120px;
+    background-color: red;
+}
+
+.small-box {
+    display: flex;
+    width: 100%;
+    height: 35%;
+
+}
+
+.small-box2{
+    display: flex;
+    width: 100%;
+    height: 30%;
+
+}
+
+.text {
+    margin-top: 25px;
+    word-wrap: break-word;
+    margin-left: 32px;
+    width: 40%;
+    height: 70%;
+    min-width: 1.5rem;
+    max-width: 65rem;
+    min-height: 10rem;
+
+}
+
+.figure-imagen-menu {
+    max-width: 15rem;
+    max-height: 30rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: right;
+    width: 30%;
+    height: 90%;
+}
+
+.cake1 {
+    width: 90%;
+    height: 90%;
+}
+
+h2 {
+    margin-top: 12px;
+    font-size: 1vw;
+    font-family: 'arial';
+}
+
+.figure-imagen2-menu {
+    max-width: 15rem;
+    max-height: 30rem;
+    margin-left: auto;
+    display: flex;
+    justify-content: right;
+    width: 40%;
+    height: 90%;
+}
+
+.cake2 {
+    margin-top: -22px;
+    width: 100%;
+    height: 100%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+    height: 60%;
+}
+
+.container2 {
+    background-color: rgb(200, 40, 93);
+    width: 100%;
+    height: 40%;
+}
+
+h1 {
+    text-align: center;
+}
+.small-box-img {
+    max-width: 50rem;
+    max-height: 40rem;
+    position: relative;
+    top: -123px;
+    margin: 0 auto;
+    width: 50%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 95px;
+    width: 60%;
+    height: 40%;
+    text-align: center;
+}
+
+.name {
+    font-family: 'MiFuente';
+    font-size: 3vw;
+    color: rgb(200, 40, 93);
+}
+
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../fuente/Take\ Coffee.ttf');
+}
+
+/*------------------------------------------ Footer --------------------------------------------------*/
+
+.containerFooter {
+    padding: 1px;
+    text-align: center;
+    margin-top: 5rem;
+    bottom: 0;
+    min-width: 30.2rem;
+}
+
+.containerSocialMedia {
+    border-top: 4px solid #a22844;
+    border-bottom: 4px solid #a22844;
+    margin-bottom: 1rem;
+    min-width: 30.2rem;
+}
+
+.textContact {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.containerImgFooter {
+    display: flex;
+    flex-wrap: wrap;
+    width: 95vw;
+    margin-top: 1rem;
+    padding-left: 12rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialMedia {
+    width: 10rem;
+    height: 8rem;
+    margin: 0.1rem;
+    align-items: center;
+}
+
+.imgFooter {
+    width: 5rem;
+    height: 5rem;
+}
+
+.containerText {
+    background-color: #a22844;
+    height: 8rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.textFooter {
+    color: #fff;
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.containerCopy {
+    border-top: 4px solid #a22844;
+    border-bottom: 4px solid #a22844;
+    height: 3rem;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.containerCopy small {
+    font-size: 15px;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 62.5%;
+    list-style: none;
+    min-width: 30.2rem;
+}
